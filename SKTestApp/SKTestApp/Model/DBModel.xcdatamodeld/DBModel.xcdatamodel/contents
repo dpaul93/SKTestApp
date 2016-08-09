@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15G31" minimumToolsVersion="Xcode 7.0">
-    <elements/>
+    <entity name="WeatherModel" representedClassName="WeatherModel" syncable="YES">
+        <attribute name="weatherCityName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weatherDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weatherIconURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weatherMain" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weatherTemperature" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="WeatherModel" positionX="-63" positionY="-18" width="128" height="120"/>
+    </elements>
 </model>
