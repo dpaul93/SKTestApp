@@ -9,6 +9,17 @@
 /* Begin PBXBuildFile section */
 		48741A971D59C54C0026FB7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48741A961D59C54C0026FB7B /* AppDelegate.m */; };
 		48741A9A1D59C5650026FB7B /* DBModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48741A981D59C5650026FB7B /* DBModel.xcdatamodeld */; };
+		48741AB91D59C6A30026FB7B /* BaseDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 48741AA01D59C6A30026FB7B /* BaseDTO.m */; };
+		48741ABA1D59C6A30026FB7B /* BaseWebServiceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48741AA31D59C6A30026FB7B /* BaseWebServiceModel.m */; };
+		48741ABB1D59C6A30026FB7B /* BaseResponseInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 48741AA61D59C6A30026FB7B /* BaseResponseInfo.m */; };
+		48741ABC1D59C6A30026FB7B /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 48741AA81D59C6A30026FB7B /* WebService.m */; };
+		48741ABD1D59C6A30026FB7B /* WebServiceConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 48741AAA1D59C6A30026FB7B /* WebServiceConstants.m */; };
+		48741ABE1D59C6A30026FB7B /* DTOWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 48741AAD1D59C6A30026FB7B /* DTOWrapper.m */; };
+		48741ADD1D59C74F0026FB7B /* TestDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 48741AD51D59C74F0026FB7B /* TestDTO.m */; };
+		48741ADF1D59C74F0026FB7B /* TestResponseInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 48741ADA1D59C74F0026FB7B /* TestResponseInfo.m */; };
+		48741AE01D59C74F0026FB7B /* TestWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 48741ADC1D59C74F0026FB7B /* TestWebService.m */; };
+		48741AE81D59EB760026FB7B /* WeatherModel+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 48741AE51D59EB760026FB7B /* WeatherModel+CoreDataProperties.m */; };
+		48741AE91D59EB760026FB7B /* WeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48741AE71D59EB760026FB7B /* WeatherModel.m */; };
 		48B605691D59BBA3009353C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B605681D59BBA3009353C5 /* main.m */; };
 		48B605721D59BBA3009353C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48B605701D59BBA3009353C5 /* Main.storyboard */; };
 		48B605741D59BBA3009353C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48B605731D59BBA3009353C5 /* Assets.xcassets */; };
@@ -21,6 +32,28 @@
 		48741A951D59C54C0026FB7B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		48741A961D59C54C0026FB7B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		48741A991D59C5650026FB7B /* DBModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DBModel.xcdatamodel; sourceTree = "<group>"; };
+		48741A9F1D59C6A30026FB7B /* BaseDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDTO.h; sourceTree = "<group>"; };
+		48741AA01D59C6A30026FB7B /* BaseDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDTO.m; sourceTree = "<group>"; };
+		48741AA21D59C6A30026FB7B /* BaseWebServiceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseWebServiceModel.h; sourceTree = "<group>"; };
+		48741AA31D59C6A30026FB7B /* BaseWebServiceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseWebServiceModel.m; sourceTree = "<group>"; };
+		48741AA51D59C6A30026FB7B /* BaseResponseInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseResponseInfo.h; sourceTree = "<group>"; };
+		48741AA61D59C6A30026FB7B /* BaseResponseInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseResponseInfo.m; sourceTree = "<group>"; };
+		48741AA71D59C6A30026FB7B /* WebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebService.h; sourceTree = "<group>"; };
+		48741AA81D59C6A30026FB7B /* WebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebService.m; sourceTree = "<group>"; };
+		48741AA91D59C6A30026FB7B /* WebServiceConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServiceConstants.h; sourceTree = "<group>"; };
+		48741AAA1D59C6A30026FB7B /* WebServiceConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServiceConstants.m; sourceTree = "<group>"; };
+		48741AAC1D59C6A30026FB7B /* DTOWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOWrapper.h; sourceTree = "<group>"; };
+		48741AAD1D59C6A30026FB7B /* DTOWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOWrapper.m; sourceTree = "<group>"; };
+		48741AD41D59C74F0026FB7B /* TestDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestDTO.h; sourceTree = "<group>"; };
+		48741AD51D59C74F0026FB7B /* TestDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestDTO.m; sourceTree = "<group>"; };
+		48741AD91D59C74F0026FB7B /* TestResponseInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestResponseInfo.h; sourceTree = "<group>"; };
+		48741ADA1D59C74F0026FB7B /* TestResponseInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestResponseInfo.m; sourceTree = "<group>"; };
+		48741ADB1D59C74F0026FB7B /* TestWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestWebService.h; sourceTree = "<group>"; };
+		48741ADC1D59C74F0026FB7B /* TestWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestWebService.m; sourceTree = "<group>"; };
+		48741AE41D59EB760026FB7B /* WeatherModel+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WeatherModel+CoreDataProperties.h"; sourceTree = "<group>"; };
+		48741AE51D59EB760026FB7B /* WeatherModel+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WeatherModel+CoreDataProperties.m"; sourceTree = "<group>"; };
+		48741AE61D59EB760026FB7B /* WeatherModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherModel.h; sourceTree = "<group>"; };
+		48741AE71D59EB760026FB7B /* WeatherModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherModel.m; sourceTree = "<group>"; };
 		48B605641D59BBA3009353C5 /* SKTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48B605681D59BBA3009353C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		48B605711D59BBA3009353C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,6 +89,10 @@
 			isa = PBXGroup;
 			children = (
 				48741A981D59C5650026FB7B /* DBModel.xcdatamodeld */,
+				48741AE41D59EB760026FB7B /* WeatherModel+CoreDataProperties.h */,
+				48741AE51D59EB760026FB7B /* WeatherModel+CoreDataProperties.m */,
+				48741AE61D59EB760026FB7B /* WeatherModel.h */,
+				48741AE71D59EB760026FB7B /* WeatherModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -74,6 +111,95 @@
 			children = (
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		48741A9C1D59C6A30026FB7B /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				48741AD21D59C74F0026FB7B /* TestWebService */,
+				48741A9D1D59C6A30026FB7B /* BaseWebService */,
+				48741AAB1D59C6A30026FB7B /* DTOWrapper */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		48741A9D1D59C6A30026FB7B /* BaseWebService */ = {
+			isa = PBXGroup;
+			children = (
+				48741A9E1D59C6A30026FB7B /* DTO */,
+				48741AA11D59C6A30026FB7B /* Model */,
+				48741AA41D59C6A30026FB7B /* ResponseInfo */,
+				48741AA71D59C6A30026FB7B /* WebService.h */,
+				48741AA81D59C6A30026FB7B /* WebService.m */,
+				48741AA91D59C6A30026FB7B /* WebServiceConstants.h */,
+				48741AAA1D59C6A30026FB7B /* WebServiceConstants.m */,
+			);
+			path = BaseWebService;
+			sourceTree = "<group>";
+		};
+		48741A9E1D59C6A30026FB7B /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				48741A9F1D59C6A30026FB7B /* BaseDTO.h */,
+				48741AA01D59C6A30026FB7B /* BaseDTO.m */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		48741AA11D59C6A30026FB7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				48741AA21D59C6A30026FB7B /* BaseWebServiceModel.h */,
+				48741AA31D59C6A30026FB7B /* BaseWebServiceModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		48741AA41D59C6A30026FB7B /* ResponseInfo */ = {
+			isa = PBXGroup;
+			children = (
+				48741AA51D59C6A30026FB7B /* BaseResponseInfo.h */,
+				48741AA61D59C6A30026FB7B /* BaseResponseInfo.m */,
+			);
+			path = ResponseInfo;
+			sourceTree = "<group>";
+		};
+		48741AAB1D59C6A30026FB7B /* DTOWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				48741AAC1D59C6A30026FB7B /* DTOWrapper.h */,
+				48741AAD1D59C6A30026FB7B /* DTOWrapper.m */,
+			);
+			path = DTOWrapper;
+			sourceTree = "<group>";
+		};
+		48741AD21D59C74F0026FB7B /* TestWebService */ = {
+			isa = PBXGroup;
+			children = (
+				48741AD31D59C74F0026FB7B /* DTO */,
+				48741AD61D59C74F0026FB7B /* ResponseInfo */,
+				48741ADB1D59C74F0026FB7B /* TestWebService.h */,
+				48741ADC1D59C74F0026FB7B /* TestWebService.m */,
+			);
+			path = TestWebService;
+			sourceTree = "<group>";
+		};
+		48741AD31D59C74F0026FB7B /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				48741AD41D59C74F0026FB7B /* TestDTO.h */,
+				48741AD51D59C74F0026FB7B /* TestDTO.m */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		48741AD61D59C74F0026FB7B /* ResponseInfo */ = {
+			isa = PBXGroup;
+			children = (
+				48741AD91D59C74F0026FB7B /* TestResponseInfo.h */,
+				48741ADA1D59C74F0026FB7B /* TestResponseInfo.m */,
+			);
+			path = ResponseInfo;
 			sourceTree = "<group>";
 		};
 		48B6055B1D59BBA3009353C5 = {
@@ -100,6 +226,7 @@
 				48741A941D59C54C0026FB7B /* AppConfig */,
 				48741A9B1D59C5F10026FB7B /* ViewControllers */,
 				48741A931D59C5300026FB7B /* Model */,
+				48741A9C1D59C6A30026FB7B /* WebService */,
 				48B605701D59BBA3009353C5 /* Main.storyboard */,
 				48B605751D59BBA3009353C5 /* LaunchScreen.storyboard */,
 				48B605671D59BBA3009353C5 /* Supporting Files */,
@@ -247,8 +374,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				48741A971D59C54C0026FB7B /* AppDelegate.m in Sources */,
+				48741ABC1D59C6A30026FB7B /* WebService.m in Sources */,
+				48741AE81D59EB760026FB7B /* WeatherModel+CoreDataProperties.m in Sources */,
 				48B605691D59BBA3009353C5 /* main.m in Sources */,
+				48741AB91D59C6A30026FB7B /* BaseDTO.m in Sources */,
+				48741AE91D59EB760026FB7B /* WeatherModel.m in Sources */,
+				48741ABD1D59C6A30026FB7B /* WebServiceConstants.m in Sources */,
 				48741A9A1D59C5650026FB7B /* DBModel.xcdatamodeld in Sources */,
+				48741ABA1D59C6A30026FB7B /* BaseWebServiceModel.m in Sources */,
+				48741ADF1D59C74F0026FB7B /* TestResponseInfo.m in Sources */,
+				48741AE01D59C74F0026FB7B /* TestWebService.m in Sources */,
+				48741ADD1D59C74F0026FB7B /* TestDTO.m in Sources */,
+				48741ABE1D59C6A30026FB7B /* DTOWrapper.m in Sources */,
+				48741ABB1D59C6A30026FB7B /* BaseResponseInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
