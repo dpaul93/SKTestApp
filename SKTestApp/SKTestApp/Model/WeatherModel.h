@@ -6,6 +6,7 @@
 //  Copyright © 2016 Pavlo Deynega. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
 #import "BaseWebServiceModel.h"
 

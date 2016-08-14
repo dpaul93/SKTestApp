@@ -8,37 +8,44 @@
 
 #import "WeatherModel.h"
 #import "WebServiceConstants.h"
+#import "NSObject+LogProperties.h"
 
 @implementation WeatherModel
 
 #pragma mark - Initialization
 
--(instancetype)initWithJSON:(id)json {
-    if(self = [super init]) {
-        NSArray *weatherData = isNULL(json[@"weather"]);
-        if(weatherData.count) {
-            NSDictionary *currentData = weatherData.firstObject;
-            self.weatherMain = isNULL(currentData[@"main"]);
-            self.weatherDescription = isNULL(currentData[@"description"]);
-            NSString *iconUrl = isNULL(currentData[@"icon"]);
-            if(iconUrl) {
-                self.weatherIconURL = [NSString stringWithFormat:@"%@.png", iconUrl];
-            }
+-(void)updateWithJSON:(id)json {
+    NSArray *weatherData = isNULL(json[@"weather"]);
+    if(weatherData.count) {
+        NSDictionary *currentData = weatherData.firstObject;
+        self.weatherMain = isNULL(currentData[@"main"]);
+        self.weatherDescription = isNULL(currentData[@"description"]);
+        NSString *iconUrl = isNULL(currentData[@"icon"]);
+        if(iconUrl) {
+            self.weatherIconURL = [NSString stringWithFormat:@"http://openweathermap.org/img/w/%@.png", iconUrl];
         }
-        self.weatherCityName = isNULL(json[@"name"]);
-        NSNumber *temp = isNULL(json[@"temp"]);
-        self.weatherTemperature = @(temp.floatValue - 273.0f); // Convert Kelvin to Celsius.
     }
-    
-    return self;
+    self.weatherCityName = isNULL(json[@"name"]);
+    NSDictionary *mainData = isNULL(json[@"main"]);
+    if(mainData) {
+        NSNumber *temp = isNULL(mainData[@"temp"]);
+        if(temp) {
+            CGFloat celsius = temp.floatValue - 273.0f; // Convert Kelvin to Celsius.
+            self.weatherTemperature = celsius > 0.0f ? [NSString stringWithFormat:@"+%.f", celsius] : [NSString stringWithFormat:@"%f", celsius];
+        }
+    }
 }
 
 -(void)updateWithModel:(WeatherModel *)model {
-    self.weatherTemperature = model.weatherTemperature;
-    self.weatherCityName = model.weatherCityName;
-    self.weatherIconURL = model.weatherIconURL;
-    self.weatherDescription = model.weatherDescription;
     self.weatherMain = model.weatherMain;
+    self.weatherIconURL = model.weatherIconURL;
+    self.weatherCityName = model.weatherCityName;
+    self.weatherDescription = model.weatherDescription;
+    self.weatherTemperature = model.weatherTemperature;
+}
+
+-(NSString *)description {
+    return [self logString];
 }
 
 @end
