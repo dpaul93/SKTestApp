@@ -130,34 +130,11 @@
             [self invalidateSessionCancelingTasks:YES];
         }
         
-        BaseResponseInfo *responseInfo;
-        if([response isKindOfClass:[NSDictionary class]]) {
-            
-            WebLog(@"----------\nRequest : %@\nReceived BODY : %@\n----------", task.response.URL.description, [response description]);
-            
-            if([[parseClass new] isKindOfClass:[self baseParseClass]]) {
-                if([parseClass instancesRespondToSelector:@selector(initWithJSON:)]) {
-                    responseInfo = [[parseClass alloc] initWithJSON:response];
-                }
-            } else {
-                responseInfo = [[[self baseParseClass] alloc] initWithJSON:response];
-                if([parseClass instancesRespondToSelector:@selector(initWithJSON:)]) {
-                    responseInfo.parsedData = [self parsedResponseWithResponseData:responseInfo.responseData parseClass:parseClass];
-                } else {
-                    responseInfo.parsedData = responseInfo.responseData;
-                }
-            }
-            
-            if(!responseInfo) {
-                responseInfo = response;
-            }
-        } else if ([response isKindOfClass:[NSError class]]) {
-            NSError *error = response;
-            
-            WebLog(@"Received ERROR : %@\nRequest : %@", [error localizedDescription], task.response.URL.description);
-            
-            responseInfo = [[self baseParseClass] new];
-            responseInfo.responseData = error;
+        id responseInfo;
+        if(self.parseCompletionBlock) {
+            responseInfo = self.parseCompletionBlock(task, response);
+        } else {
+            responseInfo = [self responseObjectWithTask:task reponse:response parseClass:parseClass];
         }
         if([self shouldInvokeCompletionWithObject:responseInfo]) {
             completion(task, responseInfo);
@@ -205,6 +182,40 @@
 }
 
 #pragma mark - Basic overrides
+
+-(id)responseObjectWithTask:(NSURLSessionDataTask *)task reponse:(id)response parseClass:(Class)parseClass {
+    BaseResponseInfo *responseInfo;
+    if([response isKindOfClass:[NSDictionary class]]) {
+        
+        WebLog(@"----------\nRequest : %@\nReceived BODY : %@\n----------", task.response.URL.description, [response description]);
+        
+        if([[parseClass new] isKindOfClass:[self baseParseClass]]) {
+            if([parseClass instancesRespondToSelector:@selector(initWithJSON:)]) {
+                responseInfo = [[parseClass alloc] initWithJSON:response];
+            }
+        } else {
+            responseInfo = [[[self baseParseClass] alloc] initWithJSON:response];
+            if([parseClass instancesRespondToSelector:@selector(initWithJSON:)]) {
+                responseInfo.parsedData = [self parsedResponseWithResponseData:responseInfo.responseData parseClass:parseClass];
+            } else {
+                responseInfo.parsedData = responseInfo.responseData;
+            }
+        }
+        
+        if(!responseInfo) {
+            responseInfo = response;
+        }
+    } else if ([response isKindOfClass:[NSError class]]) {
+        NSError *error = response;
+        
+        WebLog(@"Received ERROR : %@\nRequest : %@", [error localizedDescription], task.response.URL.description);
+        
+        responseInfo = [[self baseParseClass] new];
+        responseInfo.responseData = error;
+    }
+    
+    return responseInfo;
+}
 
 -(BOOL)shouldInvokeCompletionWithObject:(BaseResponseInfo *)object {
     return YES;

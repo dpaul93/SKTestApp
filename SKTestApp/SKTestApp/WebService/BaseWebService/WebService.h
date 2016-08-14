@@ -16,12 +16,14 @@ typedef void (^baseCompletionBlock)(NSURLSessionDataTask *, id);
 
 @interface WebService : AFHTTPSessionManager
 
+@property (copy, nonatomic) id (^parseCompletionBlock)(NSURLSessionDataTask *, id);
+
 -(void)requestWithDTO:(BaseDTO*)dto completion:(baseCompletionBlock)completion;
 -(NSURLSessionUploadTask*)uploadDataWithDTO:(BaseDTO*)dto progress:(void (^)(NSProgress *uploadProgress))uploadProgressBlock completion:(baseCompletionBlock)completion;
 -(void)cancelAllTasks;
 
 -(Class)baseParseClass;
-
+-(id)responseObjectWithTask:(NSURLSessionDataTask*)task reponse:(id)response parseClass:(Class)parseClass;
 -(BOOL)shouldInvokeCompletionWithObject:(BaseResponseInfo*)object;
 
 +(WebService*)webServiceRequestWithDTO:(BaseDTO*)dto completion:(baseCompletionBlock)completion;
