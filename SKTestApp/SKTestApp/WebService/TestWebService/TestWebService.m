@@ -24,12 +24,6 @@ static NSString * const kBaseURL = @"http://api.openweathermap.org/";
     return [TestResponseInfo class];
 }
 
-//#pragma mark - Current URL
-//
-//+(WebServiceUrl)currentURL {
-//    return WebServiceUrlBeta;
-//}
-
 #pragma mark - Image loading
 
 +(void)loadImageWithString:(NSString *)urlString forImageView:(UIImageView *)imageView {
