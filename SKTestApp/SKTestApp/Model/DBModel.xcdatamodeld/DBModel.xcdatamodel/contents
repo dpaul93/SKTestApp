@@ -1,13 +1,44 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15G31" minimumToolsVersion="Xcode 7.0">
+    <entity name="CarConditionModel" representedClassName="CarConditionModel" syncable="YES">
+        <attribute name="condition" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="car" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CarModel" inverseName="carCondition" inverseEntity="CarModel" syncable="YES"/>
+    </entity>
+    <entity name="CarEngineModel" representedClassName="CarEngineModel" syncable="YES">
+        <attribute name="engine" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="car" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CarModel" inverseName="carEngine" inverseEntity="CarModel" syncable="YES"/>
+    </entity>
+    <entity name="CarImagesModel" representedClassName="CarImagesModel" syncable="YES">
+        <attribute name="imagePath" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="car" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CarModel" inverseName="carImages" inverseEntity="CarModel" syncable="YES"/>
+    </entity>
+    <entity name="CarModel" representedClassName="CarModel" syncable="YES">
+        <attribute name="carDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="carID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="carName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="carPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="carCondition" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CarConditionModel" inverseName="car" inverseEntity="CarConditionModel" syncable="YES"/>
+        <relationship name="carEngine" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CarEngineModel" inverseName="car" inverseEntity="CarEngineModel" syncable="YES"/>
+        <relationship name="carImages" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CarImagesModel" inverseName="car" inverseEntity="CarImagesModel" syncable="YES"/>
+        <relationship name="carTransmission" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CarTransmissionModel" inverseName="car" inverseEntity="CarTransmissionModel" syncable="YES"/>
+    </entity>
+    <entity name="CarTransmissionModel" representedClassName="CarTransmissionModel" syncable="YES">
+        <attribute name="transmission" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="car" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CarModel" inverseName="carTransmission" inverseEntity="CarModel" syncable="YES"/>
+    </entity>
     <entity name="WeatherModel" representedClassName="WeatherModel" syncable="YES">
         <attribute name="weatherCityName" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="weatherDescription" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="weatherIconURL" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="weatherMain" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="weatherTemperature" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="weatherTemperature" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="WeatherModel" positionX="-63" positionY="-18" width="128" height="120"/>
+        <element name="CarConditionModel" positionX="198" positionY="-28" width="128" height="73"/>
+        <element name="CarEngineModel" positionX="198" positionY="63" width="128" height="73"/>
+        <element name="CarImagesModel" positionX="198" positionY="153" width="128" height="73"/>
+        <element name="CarModel" positionX="-288" positionY="18" width="144" height="163"/>
+        <element name="CarTransmissionModel" positionX="196" positionY="243" width="128" height="73"/>
+        <element name="WeatherModel" positionX="-288" positionY="-129" width="144" height="120"/>
     </elements>
 </model>
