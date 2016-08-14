@@ -9,7 +9,9 @@
 
 @protocol BaseWebServiceModelInterface <NSObject>
 
+@optional
 -(instancetype)initWithJSON:(id)json;
+-(void)updateWithJSON:(id)json;
 
 @end
 
