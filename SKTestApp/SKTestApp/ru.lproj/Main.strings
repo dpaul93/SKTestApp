@@ -1,0 +1,97 @@
+
+
+/* Class = "UILabel"; text = "Car:"; ObjectID = "1HM-MK-IAQ"; */
+"1HM-MK-IAQ.text" = "Машина:";
+
+/* Class = "UILabel"; text = "Audi TT"; ObjectID = "1OG-vT-qLV"; */
+"1OG-vT-qLV.text" = "Audi TT";
+
+/* Class = "UILabel"; text = "Description:"; ObjectID = "AMw-qD-juy"; */
+"AMw-qD-juy.text" = "Описание:";
+
+/* Class = "UILabel"; text = "Audi TT"; ObjectID = "Alv-UB-O4c"; */
+"Alv-UB-O4c.text" = "Audi TT";
+
+/* Class = "UILabel"; text = "20000$"; ObjectID = "CTw-7z-KSi"; */
+"CTw-7z-KSi.text" = "20000$";
+
+/* Class = "UILabel"; text = "Description:"; ObjectID = "FAf-ml-pDK"; */
+"FAf-ml-pDK.text" = "Описание:";
+
+/* Class = "UILabel"; text = "+15"; ObjectID = "Hq0-qZ-54P"; */
+"Hq0-qZ-54P.text" = "+15";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "JDg-F2-9xx"; */
+"JDg-F2-9xx.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Some random text..."; ObjectID = "Jyw-Xk-b6A"; */
+"Jyw-Xk-b6A.text" = "Some random text...";
+
+/* Class = "UILabel"; text = "location"; ObjectID = "Kax-e3-Wxl"; */
+"Kax-e3-Wxl.text" = "location";
+
+/* Class = "UILabel"; text = "Description:"; ObjectID = "NSZ-Cj-80F"; */
+"NSZ-Cj-80F.text" = "Описание:";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "OUi-iq-omv"; */
+"OUi-iq-omv.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "name:"; ObjectID = "Oaa-rL-DNg"; */
+"Oaa-rL-DNg.text" = "name:";
+
+/* Class = "UINavigationItem"; title = "Car list"; ObjectID = "Q1a-1O-k2t"; */
+"Q1a-1O-k2t.title" = "Список машин";
+
+/* Class = "UILabel"; text = "20000$"; ObjectID = "aLk-Xi-t3K"; */
+"aLk-Xi-t3K.text" = "20000$";
+
+/* Class = "UILabel"; text = "value"; ObjectID = "bkN-aL-2qu"; */
+"bkN-aL-2qu.text" = "value";
+
+/* Class = "UILabel"; text = "clear"; ObjectID = "cnd-aY-Dj1"; */
+"cnd-aY-Dj1.text" = "clear";
+
+/* Class = "UILabel"; text = "Description:"; ObjectID = "d5D-T2-ah7"; */
+"d5D-T2-ah7.text" = "Description:";
+
+/* Class = "UILabel"; text = "value"; ObjectID = "de7-WQ-ILA"; */
+"de7-WQ-ILA.text" = "value";
+
+/* Class = "UILabel"; text = "Car:"; ObjectID = "dxm-xT-Dag"; */
+"dxm-xT-Dag.text" = "Машина:";
+
+/* Class = "UILabel"; text = "Car:"; ObjectID = "faJ-pH-fhr"; */
+"faJ-pH-fhr.text" = "Машина:";
+
+/* Class = "UILabel"; text = "Price:"; ObjectID = "gLH-h9-OAY"; */
+"gLH-h9-OAY.text" = "Цена:";
+
+/* Class = "UILabel"; text = "Price:"; ObjectID = "gO7-gC-FXE"; */
+"gO7-gC-FXE.text" = "Цена:";
+
+/* Class = "UILabel"; text = "Price:"; ObjectID = "h4u-YN-c6r"; */
+"h4u-YN-c6r.text" = "Цена:";
+
+/* Class = "UILabel"; text = "Car:"; ObjectID = "i1w-Lq-vxg"; */
+"i1w-Lq-vxg.text" = "Машина:";
+
+/* Class = "UILabel"; text = "name:"; ObjectID = "iw4-cW-yTU"; */
+"iw4-cW-yTU.text" = "name:";
+
+/* Class = "UILabel"; text = "name:"; ObjectID = "kLq-Jq-fNj"; */
+"kLq-Jq-fNj.text" = "name:";
+
+/* Class = "UILabel"; text = "Audi TT"; ObjectID = "pLE-6m-Rcy"; */
+"pLE-6m-Rcy.text" = "Audi TT";
+
+/* Class = "UILabel"; text = "20000$"; ObjectID = "rVY-ng-FFa"; */
+"rVY-ng-FFa.text" = "20000$";
+
+/* Class = "UILabel"; text = "Car:"; ObjectID = "tCG-UJ-Wdk"; */
+"tCG-UJ-Wdk.text" = "Машина:";
+
+/* Class = "UILabel"; text = "- – – – – – – – – -"; ObjectID = "vvm-d9-iBT"; */
+"vvm-d9-iBT.text" = "- – – – – – – – – -";
+
+/* Class = "UILabel"; text = "name:"; ObjectID = "xu1-85-ZPB"; */
+"xu1-85-ZPB.text" = "name:";

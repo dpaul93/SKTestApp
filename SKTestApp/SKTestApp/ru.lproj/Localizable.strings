@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  SKTestApp
+
+  Created by Pavlo Deynega on 14.08.16.
+  Copyright © 2016 Pavlo Deynega. All rights reserved.
+*/
+
+"transmission-manual" = "ручная";
+"transmission-semi-automatic" = "полуавтомат";
+"transmission-automatic" = "автомат";
+
+"condition-bad" = "плохое";
+"condition-good" = "хорошее";
+"condition-excellent" = "отличное";
+"condition-new" = "новое";
+
+"car-cell-car" = "Машина:";
+"car-cell-price" = "Цена:";
+"car-cell-condition" = "Состояние:";
+"car-cell-transmission" = "Трансмиссия:";
+"car-cell-engine" = "Двигатель:";
+"car-cell-description" = "Описание:";
