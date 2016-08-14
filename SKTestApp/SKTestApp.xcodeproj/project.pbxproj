@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48044B7E1D5B13C20028C50D /* CarDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48044B7D1D5B13C20028C50D /* CarDetailsViewController.m */; };
+		483A51531D5C89E300FBC8DA /* KeyboardHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 483A51521D5C89E300FBC8DA /* KeyboardHandler.m */; };
+		485F21831D6084CA00178BF5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 485F21811D6084CA00178BF5 /* Localizable.strings */; };
 		48741A971D59C54C0026FB7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48741A961D59C54C0026FB7B /* AppDelegate.m */; };
 		48741A9A1D59C5650026FB7B /* DBModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48741A981D59C5650026FB7B /* DBModel.xcdatamodeld */; };
 		48741AB91D59C6A30026FB7B /* BaseDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 48741AA01D59C6A30026FB7B /* BaseDTO.m */; };
@@ -20,15 +23,41 @@
 		48741AE01D59C74F0026FB7B /* TestWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 48741ADC1D59C74F0026FB7B /* TestWebService.m */; };
 		48741AE81D59EB760026FB7B /* WeatherModel+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 48741AE51D59EB760026FB7B /* WeatherModel+CoreDataProperties.m */; };
 		48741AE91D59EB760026FB7B /* WeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48741AE71D59EB760026FB7B /* WeatherModel.m */; };
+		48741AEE1D59F2B20026FB7B /* MainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48741AED1D59F2B20026FB7B /* MainPageViewController.m */; };
+		48741AF21D59FE5B0026FB7B /* MainPageWeatherTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48741AF11D59FE5B0026FB7B /* MainPageWeatherTableViewCell.m */; };
+		48741AF51D59FE650026FB7B /* MainPageCarTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48741AF41D59FE650026FB7B /* MainPageCarTableViewCell.m */; };
+		48741B0A1D5A05EA0026FB7B /* CarEngineModel+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 48741AF71D5A05EA0026FB7B /* CarEngineModel+CoreDataProperties.m */; };
+		48741B0B1D5A05EA0026FB7B /* CarEngineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48741AF91D5A05EA0026FB7B /* CarEngineModel.m */; };
+		48741B0C1D5A05EA0026FB7B /* CarModel+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 48741AFB1D5A05EA0026FB7B /* CarModel+CoreDataProperties.m */; };
+		48741B0D1D5A05EA0026FB7B /* CarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48741AFD1D5A05EA0026FB7B /* CarModel.m */; };
+		48741B0E1D5A05EA0026FB7B /* CarImagesModel+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 48741AFF1D5A05EA0026FB7B /* CarImagesModel+CoreDataProperties.m */; };
+		48741B0F1D5A05EA0026FB7B /* CarImagesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48741B011D5A05EA0026FB7B /* CarImagesModel.m */; };
+		48741B101D5A05EA0026FB7B /* CarConditionModel+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 48741B031D5A05EA0026FB7B /* CarConditionModel+CoreDataProperties.m */; };
+		48741B111D5A05EA0026FB7B /* CarConditionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48741B051D5A05EA0026FB7B /* CarConditionModel.m */; };
+		48741B121D5A05EA0026FB7B /* CarTransmissionModel+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 48741B071D5A05EA0026FB7B /* CarTransmissionModel+CoreDataProperties.m */; };
+		48741B131D5A05EA0026FB7B /* CarTransmissionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48741B091D5A05EA0026FB7B /* CarTransmissionModel.m */; };
+		48741B171D5A2AF20026FB7B /* NSObject+LogProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 48741B161D5A2AF20026FB7B /* NSObject+LogProperties.m */; };
+		48A792D71D5DDCC4002FFA09 /* UIImage+ImageWithPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A792D61D5DDCC4002FFA09 /* UIImage+ImageWithPath.m */; };
 		48B605691D59BBA3009353C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B605681D59BBA3009353C5 /* main.m */; };
 		48B605721D59BBA3009353C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48B605701D59BBA3009353C5 /* Main.storyboard */; };
 		48B605741D59BBA3009353C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48B605731D59BBA3009353C5 /* Assets.xcassets */; };
 		48B605771D59BBA3009353C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48B605751D59BBA3009353C5 /* LaunchScreen.storyboard */; };
+		48E632751D5B1BFB009090B2 /* CarDetailsScrollTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E632741D5B1BFB009090B2 /* CarDetailsScrollTableViewCell.m */; };
+		48E632781D5B1C70009090B2 /* MultiLabeledTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E632771D5B1C70009090B2 /* MultiLabeledTableViewCell.m */; };
+		48E6327E1D5B5ABB009090B2 /* AddCarPhotoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E6327D1D5B5ABB009090B2 /* AddCarPhotoTableViewCell.m */; };
+		48E632811D5B5D47009090B2 /* AddCarPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E632801D5B5D47009090B2 /* AddCarPhotoCollectionViewCell.m */; };
+		48E632841D5B5E30009090B2 /* AddCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E632831D5B5E30009090B2 /* AddCarViewController.m */; };
 		E4F87243021044892E862AA4 /* libPods-SKTestApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F658438C58365A6CC1374B1 /* libPods-SKTestApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2F658438C58365A6CC1374B1 /* libPods-SKTestApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SKTestApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48044B7C1D5B13C20028C50D /* CarDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarDetailsViewController.h; sourceTree = "<group>"; };
+		48044B7D1D5B13C20028C50D /* CarDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarDetailsViewController.m; sourceTree = "<group>"; };
+		483A51511D5C89E300FBC8DA /* KeyboardHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardHandler.h; sourceTree = "<group>"; };
+		483A51521D5C89E300FBC8DA /* KeyboardHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardHandler.m; sourceTree = "<group>"; };
+		485F21801D60836C00178BF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		485F21821D6084CA00178BF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		48741A951D59C54C0026FB7B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		48741A961D59C54C0026FB7B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		48741A991D59C5650026FB7B /* DBModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DBModel.xcdatamodel; sourceTree = "<group>"; };
@@ -54,12 +83,55 @@
 		48741AE51D59EB760026FB7B /* WeatherModel+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WeatherModel+CoreDataProperties.m"; sourceTree = "<group>"; };
 		48741AE61D59EB760026FB7B /* WeatherModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherModel.h; sourceTree = "<group>"; };
 		48741AE71D59EB760026FB7B /* WeatherModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherModel.m; sourceTree = "<group>"; };
+		48741AEA1D59F13D0026FB7B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		48741AEB1D59F13D0026FB7B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		48741AEC1D59F2B20026FB7B /* MainPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPageViewController.h; sourceTree = "<group>"; };
+		48741AED1D59F2B20026FB7B /* MainPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPageViewController.m; sourceTree = "<group>"; };
+		48741AF01D59FE5B0026FB7B /* MainPageWeatherTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPageWeatherTableViewCell.h; sourceTree = "<group>"; };
+		48741AF11D59FE5B0026FB7B /* MainPageWeatherTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPageWeatherTableViewCell.m; sourceTree = "<group>"; };
+		48741AF31D59FE650026FB7B /* MainPageCarTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPageCarTableViewCell.h; sourceTree = "<group>"; };
+		48741AF41D59FE650026FB7B /* MainPageCarTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPageCarTableViewCell.m; sourceTree = "<group>"; };
+		48741AF61D5A05EA0026FB7B /* CarEngineModel+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CarEngineModel+CoreDataProperties.h"; sourceTree = "<group>"; };
+		48741AF71D5A05EA0026FB7B /* CarEngineModel+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CarEngineModel+CoreDataProperties.m"; sourceTree = "<group>"; };
+		48741AF81D5A05EA0026FB7B /* CarEngineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarEngineModel.h; sourceTree = "<group>"; };
+		48741AF91D5A05EA0026FB7B /* CarEngineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarEngineModel.m; sourceTree = "<group>"; };
+		48741AFA1D5A05EA0026FB7B /* CarModel+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CarModel+CoreDataProperties.h"; sourceTree = "<group>"; };
+		48741AFB1D5A05EA0026FB7B /* CarModel+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CarModel+CoreDataProperties.m"; sourceTree = "<group>"; };
+		48741AFC1D5A05EA0026FB7B /* CarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarModel.h; sourceTree = "<group>"; };
+		48741AFD1D5A05EA0026FB7B /* CarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarModel.m; sourceTree = "<group>"; };
+		48741AFE1D5A05EA0026FB7B /* CarImagesModel+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CarImagesModel+CoreDataProperties.h"; sourceTree = "<group>"; };
+		48741AFF1D5A05EA0026FB7B /* CarImagesModel+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CarImagesModel+CoreDataProperties.m"; sourceTree = "<group>"; };
+		48741B001D5A05EA0026FB7B /* CarImagesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarImagesModel.h; sourceTree = "<group>"; };
+		48741B011D5A05EA0026FB7B /* CarImagesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarImagesModel.m; sourceTree = "<group>"; };
+		48741B021D5A05EA0026FB7B /* CarConditionModel+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CarConditionModel+CoreDataProperties.h"; sourceTree = "<group>"; };
+		48741B031D5A05EA0026FB7B /* CarConditionModel+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CarConditionModel+CoreDataProperties.m"; sourceTree = "<group>"; };
+		48741B041D5A05EA0026FB7B /* CarConditionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarConditionModel.h; sourceTree = "<group>"; };
+		48741B051D5A05EA0026FB7B /* CarConditionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarConditionModel.m; sourceTree = "<group>"; };
+		48741B061D5A05EA0026FB7B /* CarTransmissionModel+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CarTransmissionModel+CoreDataProperties.h"; sourceTree = "<group>"; };
+		48741B071D5A05EA0026FB7B /* CarTransmissionModel+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CarTransmissionModel+CoreDataProperties.m"; sourceTree = "<group>"; };
+		48741B081D5A05EA0026FB7B /* CarTransmissionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarTransmissionModel.h; sourceTree = "<group>"; };
+		48741B091D5A05EA0026FB7B /* CarTransmissionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarTransmissionModel.m; sourceTree = "<group>"; };
+		48741B151D5A2AF20026FB7B /* NSObject+LogProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LogProperties.h"; sourceTree = "<group>"; };
+		48741B161D5A2AF20026FB7B /* NSObject+LogProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LogProperties.m"; sourceTree = "<group>"; };
+		48758EB91D60853E0074BB14 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		48A792D51D5DDCC4002FFA09 /* UIImage+ImageWithPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithPath.h"; sourceTree = "<group>"; };
+		48A792D61D5DDCC4002FFA09 /* UIImage+ImageWithPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithPath.m"; sourceTree = "<group>"; };
 		48B605641D59BBA3009353C5 /* SKTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48B605681D59BBA3009353C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		48B605711D59BBA3009353C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48B605731D59BBA3009353C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48B605761D59BBA3009353C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48B605781D59BBA3009353C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48E632731D5B1BFB009090B2 /* CarDetailsScrollTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarDetailsScrollTableViewCell.h; sourceTree = "<group>"; };
+		48E632741D5B1BFB009090B2 /* CarDetailsScrollTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarDetailsScrollTableViewCell.m; sourceTree = "<group>"; };
+		48E632761D5B1C70009090B2 /* MultiLabeledTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiLabeledTableViewCell.h; sourceTree = "<group>"; };
+		48E632771D5B1C70009090B2 /* MultiLabeledTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiLabeledTableViewCell.m; sourceTree = "<group>"; };
+		48E6327C1D5B5ABB009090B2 /* AddCarPhotoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCarPhotoTableViewCell.h; sourceTree = "<group>"; };
+		48E6327D1D5B5ABB009090B2 /* AddCarPhotoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCarPhotoTableViewCell.m; sourceTree = "<group>"; };
+		48E6327F1D5B5D47009090B2 /* AddCarPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCarPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		48E632801D5B5D47009090B2 /* AddCarPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCarPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		48E632821D5B5E30009090B2 /* AddCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCarViewController.h; sourceTree = "<group>"; };
+		48E632831D5B5E30009090B2 /* AddCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCarViewController.m; sourceTree = "<group>"; };
 		68B538FB3D47C86303573603 /* Pods-SKTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKTestApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKTestApp/Pods-SKTestApp.debug.xcconfig"; sourceTree = "<group>"; };
 		F91CBDE88E4D6326A1C0E479 /* Pods-SKTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKTestApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKTestApp/Pods-SKTestApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +157,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		483A51501D5C89E300FBC8DA /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				483A51511D5C89E300FBC8DA /* KeyboardHandler.h */,
+				483A51521D5C89E300FBC8DA /* KeyboardHandler.m */,
+			);
+			path = Handlers;
+			sourceTree = "<group>";
+		};
 		48741A931D59C5300026FB7B /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +174,26 @@
 				48741AE51D59EB760026FB7B /* WeatherModel+CoreDataProperties.m */,
 				48741AE61D59EB760026FB7B /* WeatherModel.h */,
 				48741AE71D59EB760026FB7B /* WeatherModel.m */,
+				48741AF61D5A05EA0026FB7B /* CarEngineModel+CoreDataProperties.h */,
+				48741AF71D5A05EA0026FB7B /* CarEngineModel+CoreDataProperties.m */,
+				48741AF81D5A05EA0026FB7B /* CarEngineModel.h */,
+				48741AF91D5A05EA0026FB7B /* CarEngineModel.m */,
+				48741AFA1D5A05EA0026FB7B /* CarModel+CoreDataProperties.h */,
+				48741AFB1D5A05EA0026FB7B /* CarModel+CoreDataProperties.m */,
+				48741AFC1D5A05EA0026FB7B /* CarModel.h */,
+				48741AFD1D5A05EA0026FB7B /* CarModel.m */,
+				48741AFE1D5A05EA0026FB7B /* CarImagesModel+CoreDataProperties.h */,
+				48741AFF1D5A05EA0026FB7B /* CarImagesModel+CoreDataProperties.m */,
+				48741B001D5A05EA0026FB7B /* CarImagesModel.h */,
+				48741B011D5A05EA0026FB7B /* CarImagesModel.m */,
+				48741B021D5A05EA0026FB7B /* CarConditionModel+CoreDataProperties.h */,
+				48741B031D5A05EA0026FB7B /* CarConditionModel+CoreDataProperties.m */,
+				48741B041D5A05EA0026FB7B /* CarConditionModel.h */,
+				48741B051D5A05EA0026FB7B /* CarConditionModel.m */,
+				48741B061D5A05EA0026FB7B /* CarTransmissionModel+CoreDataProperties.h */,
+				48741B071D5A05EA0026FB7B /* CarTransmissionModel+CoreDataProperties.m */,
+				48741B081D5A05EA0026FB7B /* CarTransmissionModel.h */,
+				48741B091D5A05EA0026FB7B /* CarTransmissionModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -109,6 +210,12 @@
 		48741A9B1D59C5F10026FB7B /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				48741AEC1D59F2B20026FB7B /* MainPageViewController.h */,
+				48741AED1D59F2B20026FB7B /* MainPageViewController.m */,
+				48044B7C1D5B13C20028C50D /* CarDetailsViewController.h */,
+				48044B7D1D5B13C20028C50D /* CarDetailsViewController.m */,
+				48E632821D5B5E30009090B2 /* AddCarViewController.h */,
+				48E632831D5B5E30009090B2 /* AddCarViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -202,6 +309,36 @@
 			path = ResponseInfo;
 			sourceTree = "<group>";
 		};
+		48741AEF1D59FE290026FB7B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				48741AF01D59FE5B0026FB7B /* MainPageWeatherTableViewCell.h */,
+				48741AF11D59FE5B0026FB7B /* MainPageWeatherTableViewCell.m */,
+				48741AF31D59FE650026FB7B /* MainPageCarTableViewCell.h */,
+				48741AF41D59FE650026FB7B /* MainPageCarTableViewCell.m */,
+				48E632731D5B1BFB009090B2 /* CarDetailsScrollTableViewCell.h */,
+				48E632741D5B1BFB009090B2 /* CarDetailsScrollTableViewCell.m */,
+				48E632761D5B1C70009090B2 /* MultiLabeledTableViewCell.h */,
+				48E632771D5B1C70009090B2 /* MultiLabeledTableViewCell.m */,
+				48E6327C1D5B5ABB009090B2 /* AddCarPhotoTableViewCell.h */,
+				48E6327D1D5B5ABB009090B2 /* AddCarPhotoTableViewCell.m */,
+				48E6327F1D5B5D47009090B2 /* AddCarPhotoCollectionViewCell.h */,
+				48E632801D5B5D47009090B2 /* AddCarPhotoCollectionViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		48741B141D5A2AD00026FB7B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				48741B151D5A2AF20026FB7B /* NSObject+LogProperties.h */,
+				48741B161D5A2AF20026FB7B /* NSObject+LogProperties.m */,
+				48A792D51D5DDCC4002FFA09 /* UIImage+ImageWithPath.h */,
+				48A792D61D5DDCC4002FFA09 /* UIImage+ImageWithPath.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		48B6055B1D59BBA3009353C5 = {
 			isa = PBXGroup;
 			children = (
@@ -224,9 +361,12 @@
 			isa = PBXGroup;
 			children = (
 				48741A941D59C54C0026FB7B /* AppConfig */,
+				48741AEF1D59FE290026FB7B /* Views */,
 				48741A9B1D59C5F10026FB7B /* ViewControllers */,
 				48741A931D59C5300026FB7B /* Model */,
+				483A51501D5C89E300FBC8DA /* Handlers */,
 				48741A9C1D59C6A30026FB7B /* WebService */,
+				48741B141D5A2AD00026FB7B /* Categories */,
 				48B605701D59BBA3009353C5 /* Main.storyboard */,
 				48B605751D59BBA3009353C5 /* LaunchScreen.storyboard */,
 				48B605671D59BBA3009353C5 /* Supporting Files */,
@@ -240,6 +380,7 @@
 				48B605781D59BBA3009353C5 /* Info.plist */,
 				48B605731D59BBA3009353C5 /* Assets.xcassets */,
 				48B605681D59BBA3009353C5 /* main.m */,
+				485F21811D6084CA00178BF5 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -286,6 +427,7 @@
 				TargetAttributes = {
 					48B605631D59BBA3009353C5 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = G8XQL5X2GB;
 					};
 				};
 			};
@@ -296,6 +438,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 48B6055B1D59BBA3009353C5;
 			productRefGroup = 48B605651D59BBA3009353C5 /* Products */;
@@ -313,6 +456,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48B605771D59BBA3009353C5 /* LaunchScreen.storyboard in Resources */,
+				485F21831D6084CA00178BF5 /* Localizable.strings in Resources */,
 				48B605741D59BBA3009353C5 /* Assets.xcassets in Resources */,
 				48B605721D59BBA3009353C5 /* Main.storyboard in Resources */,
 			);
@@ -373,30 +517,63 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48741AF51D59FE650026FB7B /* MainPageCarTableViewCell.m in Sources */,
 				48741A971D59C54C0026FB7B /* AppDelegate.m in Sources */,
 				48741ABC1D59C6A30026FB7B /* WebService.m in Sources */,
 				48741AE81D59EB760026FB7B /* WeatherModel+CoreDataProperties.m in Sources */,
 				48B605691D59BBA3009353C5 /* main.m in Sources */,
+				48741B0D1D5A05EA0026FB7B /* CarModel.m in Sources */,
 				48741AB91D59C6A30026FB7B /* BaseDTO.m in Sources */,
+				48741AEE1D59F2B20026FB7B /* MainPageViewController.m in Sources */,
+				48A792D71D5DDCC4002FFA09 /* UIImage+ImageWithPath.m in Sources */,
 				48741AE91D59EB760026FB7B /* WeatherModel.m in Sources */,
+				48E632841D5B5E30009090B2 /* AddCarViewController.m in Sources */,
+				48741B171D5A2AF20026FB7B /* NSObject+LogProperties.m in Sources */,
+				48044B7E1D5B13C20028C50D /* CarDetailsViewController.m in Sources */,
+				48E632811D5B5D47009090B2 /* AddCarPhotoCollectionViewCell.m in Sources */,
 				48741ABD1D59C6A30026FB7B /* WebServiceConstants.m in Sources */,
+				48E6327E1D5B5ABB009090B2 /* AddCarPhotoTableViewCell.m in Sources */,
+				483A51531D5C89E300FBC8DA /* KeyboardHandler.m in Sources */,
+				48741B101D5A05EA0026FB7B /* CarConditionModel+CoreDataProperties.m in Sources */,
+				48741B0E1D5A05EA0026FB7B /* CarImagesModel+CoreDataProperties.m in Sources */,
+				48E632751D5B1BFB009090B2 /* CarDetailsScrollTableViewCell.m in Sources */,
+				48741B0B1D5A05EA0026FB7B /* CarEngineModel.m in Sources */,
+				48741B0C1D5A05EA0026FB7B /* CarModel+CoreDataProperties.m in Sources */,
 				48741A9A1D59C5650026FB7B /* DBModel.xcdatamodeld in Sources */,
 				48741ABA1D59C6A30026FB7B /* BaseWebServiceModel.m in Sources */,
 				48741ADF1D59C74F0026FB7B /* TestResponseInfo.m in Sources */,
 				48741AE01D59C74F0026FB7B /* TestWebService.m in Sources */,
 				48741ADD1D59C74F0026FB7B /* TestDTO.m in Sources */,
 				48741ABE1D59C6A30026FB7B /* DTOWrapper.m in Sources */,
+				48741B131D5A05EA0026FB7B /* CarTransmissionModel.m in Sources */,
+				48741AF21D59FE5B0026FB7B /* MainPageWeatherTableViewCell.m in Sources */,
+				48741B0A1D5A05EA0026FB7B /* CarEngineModel+CoreDataProperties.m in Sources */,
+				48E632781D5B1C70009090B2 /* MultiLabeledTableViewCell.m in Sources */,
 				48741ABB1D59C6A30026FB7B /* BaseResponseInfo.m in Sources */,
+				48741B111D5A05EA0026FB7B /* CarConditionModel.m in Sources */,
+				48741B121D5A05EA0026FB7B /* CarTransmissionModel+CoreDataProperties.m in Sources */,
+				48741B0F1D5A05EA0026FB7B /* CarImagesModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		485F21811D6084CA00178BF5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				485F21821D6084CA00178BF5 /* en */,
+				48758EB91D60853E0074BB14 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		48B605701D59BBA3009353C5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				48B605711D59BBA3009353C5 /* Base */,
+				48741AEA1D59F13D0026FB7B /* ru */,
+				485F21801D60836C00178BF5 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -405,6 +582,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				48B605761D59BBA3009353C5 /* Base */,
+				48741AEB1D59F13D0026FB7B /* ru */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -499,10 +677,13 @@
 			baseConfigurationReference = 68B538FB3D47C86303573603 /* Pods-SKTestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Pavlo Deynega (35EKZGJR8L)";
 				INFOPLIST_FILE = SKTestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.SKTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "61675e53-09b6-4265-806c-97c81b5a347c";
 			};
 			name = Debug;
 		};
@@ -511,6 +692,7 @@
 			baseConfigurationReference = F91CBDE88E4D6326A1C0E479 /* Pods-SKTestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SKTestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.SKTestApp;
